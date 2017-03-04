@@ -11,10 +11,15 @@
   "author": "Yuri Zheludkov",
   "license": "ISIC",
   "devDependencies": {
+    "css-loader": "^0.26.2",
     "eslint": "^3.17.0",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.2",
+    "scss": "^0.2.4",
+    "scss-loader": "0.0.1",
+    "style-loader": "^0.13.2",
     "webpack": "^2.2.1"
-  },
-  "dependencies": {
-    "css-loader": "^0.26.2"
   }
 }

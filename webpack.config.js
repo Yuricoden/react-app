@@ -1,4 +1,4 @@
-const webpack = require('webpack');
+var webpack = require('webpack');
 
 
 module.exports = {
@@ -10,11 +10,16 @@ module.exports = {
     },
 
     module: {
-        loaders: [
-            {
-                test:/\.scss/,
-                loader:'style!css!scss'
-            }
-        ]
+        rules: [{
+            test: /\.scss$/,
+            use: [{
+                loader: "style-loader" // creates style nodes from JS strings
+            }, {
+                loader: "css-loader" // translates CSS into CommonJS
+            }, {
+                loader: "sass-loader" // compiles Sass to CSS
+            }]
+        }]
     }
+
 }
