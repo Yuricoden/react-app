@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Yuri Zheludkov",
   "license": "ISIC",
   "devDependencies": {
+    "eslint": "^3.17.0",
     "webpack": "^2.2.1"
   }
 }
