@@ -2,5 +2,7 @@
 # IntelliJ project files
 .idea
 *.iml
+public/bundle.js
+node_modules
 out
 gen
