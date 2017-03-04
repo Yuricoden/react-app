@@ -1,9 +1,9 @@
 var str = require('./module');
 
 var App = function() {
-
-    console.log(str);
-
+    document.write(str);
 };
 
 var app = new App();
+app.get = function() {};
+
